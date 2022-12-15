@@ -9,14 +9,6 @@ body {
 
 }
 
-#container {
-    width: 70%;
-    padding: 1em;
-    text-align: left;
-    border: 1px solid rgb(16, 56, 167);
-    margin: 0 auto
-}
-
 #cabecera {
     background: rgb(55, 55, 58);
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 00.5rem);
@@ -27,10 +19,24 @@ body {
 
 }
 
+#cabecera #logo 
+{
+    width: 80px;
+    vertical-align: middle;
+}
+
 #cabecera tagline {
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+}
+
+#container {
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid rgb(16, 56, 167);
+    margin: 0 auto
 }
 
 #container h1 {
